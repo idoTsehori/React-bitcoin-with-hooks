@@ -1,0 +1,160 @@
+.home-section {
+  background: url('../../imgs/cover.webp') no-repeat;
+  background-position: 0% 50%;
+  background-size: 100%;
+  background-position-y: 60%;
+  height: 758px;
+  width: 100%;
+
+  align-items: center;
+  .left-side {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 1fr 20%;
+    gap: 2em;
+    width: 70%;
+    & > * {
+      grid-column-start: 2;
+    }
+
+    .home-title {
+      font-weight: bold;
+      font-size: 58px;
+    }
+
+    .signup-btn {
+      width: 60%;
+      padding: 12px 32px;
+      font-size: 16px;
+      text-align: center;
+      transition: opacity 0.2s linear 0s;
+      font-weight: 500;
+      line-height: 24px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 90px;
+      color: #ffffff;
+      background: #5d45dc;
+      border-color: #5d45dc;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  .right-side {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  //////////////////
+}
+
+.exchange-for-everyone-container {
+  margin-block-start: 4.5em;
+  .title {
+    color: rgb(88, 65, 216);
+    font-size: 40px;
+    text-align: center;
+    // font-family: Celias;
+    font-weight: 500;
+    line-height: 64px;
+  }
+  .number {
+    color: rgb(88, 65, 216);
+    font-size: 48px;
+    text-align: center;
+    // font-family: Celias;
+    font-weight: 500;
+    line-height: 64px;
+  }
+
+  .info {
+    color: rgb(36, 36, 36);
+    font-size: 16px;
+    text-align: center;
+    // font-family: Celias;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
+
+.crypto-exchange {
+  margin-block-start: 7em;
+
+  h4 {
+    margin-block-end: 1.3em;
+  }
+  h1 {
+    margin-block-end: 0.5em;
+    color: rgb(88, 65, 216);
+    font-size: 40px;
+    text-align: left;
+    // font-family: Celias;
+    font-weight: 500;
+  }
+  .right-side {
+    img {
+      width: 60px;
+    }
+    p {
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+    div {
+      margin-block-start: 1em;
+    }
+    .buy-crypto-btn {
+      margin-block-start: 2em;
+      display: inline-block;
+      padding: 12px 32px;
+      font-size: 16px;
+      text-align: center;
+      transition: opacity 0.2s linear 0s;
+      font-weight: 500;
+      line-height: 24px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 90px;
+      color: #ffffff;
+      background: #5d45dc;
+      border-color: #5d45dc;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.why-us {
+  margin-block-start: 6em;
+  text-align: center;
+  height: 400px;
+
+  h1 {
+    color: rgb(88, 65, 216);
+    font-size: 40px;
+    text-align: center;
+    // font-family: Celias;
+    font-weight: 500;
+    line-height: 64px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.user-details {
+  // border: 1px solid #5841d8;
+  background-color: #6049e085;
+  border-radius: 15px;
+  width: max-content;
+  padding: 1em;
+  margin: auto;
+  margin-block-start: 0.7em;
+  line-height: 3em;
+  font-size: 2em;
+  box-shadow: 10px 10px 13px -7px #000000, -1px 18px 15px 4px #5841d88f;
+}

@@ -1,0 +1,16 @@
+.signup-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  align-items: center;
+  color: black;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  width: max-content;
+  height: max-content;
+  padding: 1em;
+  margin: auto;
+  margin-block-start: 2em;
+  font-size: 1.5em;
+  text-align: center;
+}

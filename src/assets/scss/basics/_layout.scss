@@ -1,0 +1,29 @@
+/* MAIN LAYOUT */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  // background: url('../../imgs/bitcoin_img.jpg');
+  // background: url('../../imgs/stock-market.jpg');
+  // background: url('../../imgs/1.jpg');
+  // background: url('../../imgs/cover.webp') no-repeat;
+  // // background-size: cover;
+  // background-position: 0% 50%;
+  // background-size: 100%;
+  height: 90vh;
+  // min-height: 100vh;
+  // flex: 1;
+}
+
+.main-layout > *:not(.full) {
+  grid-column: 2;
+}
+
+.main-layout > .full {
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,10 @@
+/* Playfair */
+@font-face {
+  font-family: interblack;
+  src: url(/src/fonts/Inter-Black.ttf);
+}
+/* Ubuntu */
+@font-face {
+  font-family: Inter-Light;
+  src: url(/src/fonts/Inter-Light.ttf);
+}

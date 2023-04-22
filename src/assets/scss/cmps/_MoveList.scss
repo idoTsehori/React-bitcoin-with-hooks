@@ -1,0 +1,20 @@
+.move-list {
+  h2 {
+    margin-block-start: 0.7em;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+
+  .contact-move {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border-bottom: 1px solid gray;
+    margin-block-start: 0.7em;
+  }
+
+  //   .contact-move :not(:last-child) {
+  //     // border-bottom: 1px solid gray;
+  //     // border-bottom: 1px solid gray;
+  //   }
+}
